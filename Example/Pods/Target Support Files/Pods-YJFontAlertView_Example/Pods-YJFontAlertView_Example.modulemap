@@ -1,0 +1,6 @@
+framework module Pods_YJFontAlertView_Example {
+  umbrella header "Pods-YJFontAlertView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

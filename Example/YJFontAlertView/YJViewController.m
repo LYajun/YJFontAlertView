@@ -7,23 +7,29 @@
 //
 
 #import "YJViewController.h"
+#import <YJFontAlertView/YJFontAlertView.h>
 
-@interface YJViewController ()
+
+@interface YJViewController ()<YJFontAlertViewDelegate>
 
 @end
 
 @implementation YJViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)fontSettingAction:(UIButton *)sender {
+    CGSize screenSize = [UIScreen mainScreen].bounds.size;
+    YJFontAlertView *fontView = [YJFontAlertView fontAlertViewWithFrame:CGRectMake(0, screenSize.height, screenSize.width, 200)];
+    fontView.delegate = self;
+    fontView.settingType = YJFontSettingTypeMiddle;
+    [fontView show];
 }
 
+- (void)YJFontAlertView:(YJFontAlertView *)fontView didSettingFontType:(YJFontSettingType)fontType{
+    NSLog(@"字体设置类型：%li",fontType);
+}
 @end

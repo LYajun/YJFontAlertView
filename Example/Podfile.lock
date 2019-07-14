@@ -1,0 +1,36 @@
+PODS:
+  - Masonry (1.1.0)
+  - TFHpple (2.0.0)
+  - YJExtensions (1.1.1):
+    - YJExtensions/Foundation (= 1.1.1)
+    - YJExtensions/UIKit (= 1.1.1)
+  - YJExtensions/Foundation (1.1.1):
+    - TFHpple
+  - YJExtensions/UIKit (1.1.1):
+    - YJExtensions/Foundation
+  - YJFontAlertView (1.0.0):
+    - Masonry
+    - YJExtensions
+
+DEPENDENCIES:
+  - YJFontAlertView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - TFHpple
+    - YJExtensions
+
+EXTERNAL SOURCES:
+  YJFontAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
+  YJExtensions: 74feac415ccd5a0d74559d37fd1a30c46cf3157e
+  YJFontAlertView: f83615c6310cb0deb6c8f79aa7ff6ba65d080e74
+
+PODFILE CHECKSUM: ddbf57f1bcbea9774331779ad76ac81f81fa1a72
+
+COCOAPODS: 1.7.0.beta.3

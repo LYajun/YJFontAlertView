@@ -1,0 +1,6 @@
+framework module YJFontAlertView {
+  umbrella header "YJFontAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

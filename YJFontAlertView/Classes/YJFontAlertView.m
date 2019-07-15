@@ -97,6 +97,9 @@ NSBundle *YJFontAlertViewBundle(void){
         self.settingLab.text = @"小";
         self.tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(actionTapGesture:)];
         [self.settingSlider addGestureRecognizer:self.tapGesture];
+        
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hide)];
+        [self.maskView addGestureRecognizer:tap];
     }
     return self;
 }

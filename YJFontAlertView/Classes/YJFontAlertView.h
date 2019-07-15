@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 #define YJFontSettingType_UserDefault_key @"YJFontSettingType_UserDefault_key"
 
+NSBundle *YJFontAlertViewBundle(void);
+
 typedef NS_ENUM(NSInteger,YJFontSettingType){
     YJFontSettingTypeSmall,
     YJFontSettingTypeMiddle,

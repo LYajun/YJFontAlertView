@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJFontAlertView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = '字体设置'
 
   s.description      = <<-DESC
@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YJFontAlertView/Classes/**/*'
+  s.source_files = 'YJFontAlertView/Classes/**/*.{h,m}'
   
   s.resources = 'YJFontAlertView/Classes/YJFontAlertView.bundle'
   

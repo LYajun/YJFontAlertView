@@ -7,41 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0213566D47CB3A6C2840914844A987FE /* YJExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E385FA504A301508A41795D75E455ECE /* YJExtensions.framework */; };
 		02AB1E3087A52D7C20CE1ACFED51D560 /* UIWindow+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 8584DB3EEDF9C18C94E0DF0BD141A04C /* UIWindow+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		031B616AC22F2638285A72961D6128AA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CB119514C0CCB4572C8F52A040953D /* CoreFoundation.framework */; };
 		06C8ADB5FDCD2C9C73AF46912A5668BC /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE68C66B4C07A3799F253766997D6F /* TFHppleElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0AE73E9A9401909429FEB2871D026628 /* YJFontAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF568FA959654C32530D7EA9D99885E /* YJFontAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BBC42F21528E351BE2BD2A4F8BEB2AF /* UINavigationBar+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = A136113D1D8CC9FA86E6CFB9A8562C1E /* UINavigationBar+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BC27E3085C066091B33D1756D609BB4 /* yj_fontsetting.png in Sources */ = {isa = PBXBuildFile; fileRef = D4FE3133E965FED714E349A053C5B2BF /* yj_fontsetting.png */; };
 		0C3D48A496244230D2E91504E4C3A26C /* NSString+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12CE93BB6B6E284D4889509A1CB5EB /* NSString+YJ.m */; };
 		0DC3312F89EF0822853A4F29598C4661 /* NSBundle+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5C23FC73A869D5B3280C5178E87159 /* NSBundle+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F3CD0F6AD7A7DB42F322D8405FC4CA2 /* Pods-YJFontAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B9BF599B953118DA86C6A752269E62 /* Pods-YJFontAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1100C8BF382F45A3DAA5E8486669A085 /* yj_fontsetting_line@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8A30015BC1CBD1958E94BDA3043FE0B1 /* yj_fontsetting_line@2x.png */; };
-		13698CF13CB5361AF8E6861C5EAA3091 /* YJFontAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3AB53C9ED7D082CB9AEF6B98F12847 /* YJFontAlertView-dummy.m */; };
 		137A49261B7514FB773832E97F7B3A9A /* UINavigationBar+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE199ACFB4BD37D63E406FA6ADAB437 /* UINavigationBar+YJ.m */; };
-		15CFCF80C07149E3E2B2BF8BE05E40A8 /* YJFontAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5204403C542C6E3FF99A4097DD0677D8 /* YJFontAlertView.m */; };
-		1673F04AE8DA09B51569EB42836FA9E8 /* YJFontAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48BEB1D82432AC1FFEF741E4ACACFFAF /* YJFontAlertView.bundle */; };
 		179B87E40C468C64276091ACCDEBCE85 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C1BC5FCC5EC0E19B6E0FEE770669CB /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A053F235858ABF8EFE482048759932E /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 89837B1B943A1106E80AB9335BECBCD8 /* MASViewAttribute.m */; };
+		1B3E7D65F0A13481E5DED75D9A949E4B /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBF48A42138E7E52D60A7B33038218F /* Masonry.framework */; };
 		1C59EDA904F8CC0000BEB194F164C89F /* Pods-YJFontAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A66E9953B95205CD37DFD8AAAB154C /* Pods-YJFontAlertView_Example-dummy.m */; };
 		1E4E7331B374C2D9FF8CC544B6738B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C4B40C0F146446C9BE3CD4614645FD /* Foundation.framework */; };
 		1F20F0F73CF92F619A8894616084A7BA /* NSDate+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EAAD46DD29F4477B9953E46DB5B7F9 /* NSDate+YJ.m */; };
 		20751225299BA95559F1BF121BB3A775 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC342FB7051A224589C5C41F9FE4ED1 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2317064F1896C9939201AFD75DE343C3 /* YJExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E385FA504A301508A41795D75E455ECE /* YJExtensions.framework */; };
 		2330F14D5CEA3C81F7B5C13B72A984F8 /* UIButton+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D176FA94C9B82E1E3ED37BEFA9FC85 /* UIButton+YJ.m */; };
 		24D1FD3BDBB7EB4A5680B1902A31762E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C4B40C0F146446C9BE3CD4614645FD /* Foundation.framework */; };
-		2525DA9AC60355BD04AAD7889F39CF84 /* yj_fontsetting_slider.png in Sources */ = {isa = PBXBuildFile; fileRef = 30E0DD187B864593E7878B6DBDE26AE8 /* yj_fontsetting_slider.png */; };
 		25EE59AF032496884BAA1DB9C6264C8B /* Pods-YJFontAlertView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C613342B326A5AA529A46845EFBA3320 /* Pods-YJFontAlertView_Tests-dummy.m */; };
 		2890CC5443B98EDDA727579384C8620E /* UIImageView+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = AED36C31503B21650592CC0569B11410 /* UIImageView+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D26E262347D02D5F12762781CA85DC7 /* NSObject+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B2E113058FE1533D473A2368092667 /* NSObject+YJ.m */; };
 		2D2AC53BAE6F1A4034FB2B6620C4D2EC /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 178F6725399A1A3FD03DE292C8DDCA84 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E38B21B7270BFF5EB1753F457FDEB30 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6DB938486BD0A28CB056AD99D034FA /* TFHpple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2EB1621604295AC2407B551E733701CF /* NSDictionary+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 13344FC6ADFD16454B5BF28E9F2402CD /* NSDictionary+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		352326BA407FF741FD3BF0006D1ABE75 /* yj_fontsetting_decrease@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 9CBB3E5C714CA9265DA858373E30463D /* yj_fontsetting_decrease@3x.png */; };
 		368D606F3C0ED28C0E712D5E0C622B78 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0ECC018D947356A9C99368177BC79C /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3910831115ECE36964FEBCE61E0BCDAF /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 05449CFE9EEA7EB0D6626539810AB206 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		391E4BDBEA04274915ADBB5C5F866B80 /* yj_fontsetting@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D06B1516EC66B925CB53C81C83126F5D /* yj_fontsetting@2x.png */; };
-		3F89178F68272866EFAEAB1EE1D85B7B /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBF48A42138E7E52D60A7B33038218F /* Masonry.framework */; };
 		4078D68DA4143D4CD7FD674FFA5DCBB6 /* NSNumber+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A59DDE0F40E510243D169349173AB7 /* NSNumber+YJ.m */; };
 		43EC8E238D804DB51742C70DAF8E5E94 /* NSBundle+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = A2125CB647CE1D275D60532875E7C4E3 /* NSBundle+YJ.m */; };
 		4799D7DDB099CE2E6BBC8B96DE6B6EFB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7FA7FB5B0ECFDBF0E526A93EB8E4B5 /* ViewController+MASAdditions.m */; };
@@ -52,9 +43,8 @@
 		616AC6B56259BDADA654ADFE74536765 /* UIViewController+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2278EAB3FE4DD3924609F79BD00B5DFC /* UIViewController+YJ.m */; };
 		638179457800E16C4961F13E32301CEF /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 09913173E688FB8EDC5A1BB19D290D94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63C22A97B892045474C99EBCF60FDFB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC10662168752B87D08B68D6D8CD76 /* UIKit.framework */; };
+		6454786F82728CFA0A0DE131DC37CD77 /* YJFontAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B032F2FAD9656B848271B395D76B923B /* YJFontAlertView-dummy.m */; };
 		64AE8C7580AEAC6EA20480AB31767C9C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D43CDF338953E0FB2AAB9C592BED6EFE /* MASLayoutConstraint.m */; };
-		666701D2D2A9DF218D60A9C5C55E50E7 /* yj_fontsetting_slider@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C8E31FF4D52E950AB2F8235EA4FBF397 /* yj_fontsetting_slider@2x.png */; };
-		6BD8B11D4F403F8D39ED3E5DE9391C1D /* yj_fontsetting@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = BEAE37B5AEAA8018C11C6094C58FA70C /* yj_fontsetting@3x.png */; };
 		6E1AB9D6EA840B86A6A2A9792EEFB528 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6483D898058DC05AE1B0F550BDED81 /* XPathQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6E774CE5655DE07DDA2B0BD78AE784E2 /* NSDictionary+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = B7805D486B7CFFA3D8C72D23948FEBFE /* NSDictionary+YJ.m */; };
 		6E9D4D54FCD4CDC3643316297A4DD76E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1060ECC52F9BEF3188AA018ED73AD /* MASConstraintMaker.m */; };
@@ -66,7 +56,6 @@
 		80EDD78C47C8E647D7B0F4F9A5E1C205 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7653ED889C647AD0D4562FCBA7B66159 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82F872FCEE4320C4A4DB23C94022FA80 /* UIImage+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 942EFEEAFB5123398CFD098D6527CB67 /* UIImage+YJ.m */; };
 		880E8CFAD4FC05938907E286EA26C072 /* UIWindow+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC24134FFD1B6B4CD1F344C8789279 /* UIWindow+YJ.m */; };
-		8C03267583A9B6D24AB04F7E7246880D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C4B40C0F146446C9BE3CD4614645FD /* Foundation.framework */; };
 		8C3E357FD7C5C8927504E34D34106334 /* NSUserDefaults+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = D794036B537918B67705BE634B29368A /* NSUserDefaults+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E1B089AB37BE8157701B9516932D11B /* UIDevice+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C028F4D9AE4548DF2F92163C5F6F9 /* UIDevice+YJ.m */; };
 		943C156196AB838AC982E809647225A4 /* YJExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C1E883D598A3B58CD967FF02711155 /* YJExtensions-dummy.m */; };
@@ -75,33 +64,30 @@
 		9B71A0AC5657E3DD3C37C38D9DBC8D6F /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FBA427489DB3D58F8ADE1A8C448EF5 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB55A94C2FCFC0078D34E6C77CFF39C /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C826597BCC1FAB61C9FCEDEA876D364A /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3D9ACE3050523DE9344B0BA520A5508 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B34698A726904F013FE7520E34857E6 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A57384F071FB5B83E8CDAF10402836F7 /* YJFontAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = B01950E16ACE1796E9F293C71006D6AF /* YJFontAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6503CE6C457C294C81976F9E3AD8B0D /* NSUserDefaults+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F137E991FFAA21DAE9B2B5A368D3496 /* NSUserDefaults+YJ.m */; };
 		A8BB186E44BF42A2163D6EC6C9EF8151 /* YJExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F77422B4D17383163E1D80B19E1ACF /* YJExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB57EDE55302C1143E3600F09C98E1B2 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D497E3B4F4FD33597EF10F5E178DC4C /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB5DAB0FC80289D95CD206CC66FAC7BC /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD23458E489084E0DA912C0F6F29BB4 /* MASConstraint.m */; };
 		AD3D9E0384BE0FC3F725A8C279EE3BC1 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA49D0D3DCD28A5DDFCD047FA90E87C /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFF608DD43C1784A1A6B63FC33732A7F /* yj_fontsetting_decrease@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3A98FA21EC640FDFEBE9A8EE282E65DE /* yj_fontsetting_decrease@2x.png */; };
 		B3D307C1CFEDF5EC8DB65A184FBB2B0F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F94BDCBD578889B872E8B1AE6D85F1E3 /* MASViewConstraint.m */; };
 		B3E6BE1DBEC01868544FE7C0EF585955 /* UIImageView+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB5C3374CF4F2EF985B2AA9C61A6C0 /* UIImageView+YJ.m */; };
-		B4F7AF1232B814F3FC6991AF67FE949E /* yj_fontsetting_increase@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = EE3367213241A86D8665408648531257 /* yj_fontsetting_increase@3x.png */; };
-		B771531E23D272A41A55AE08C492178A /* yj_fontsetting_increase@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4AD4790C8D22F0EE8777751DF8B19477 /* yj_fontsetting_increase@2x.png */; };
 		BC28215ED1B90CDB1C264CFD6EC56744 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA148AFC0F5D32DDE13C293B1810F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEDB617FE35DF4F9793B3D33F41A8A95 /* NSFileManager+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B555402BFC834CD4D650870697774D /* NSFileManager+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C22DD749E3B05AB879DA4E7A8C395575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C4B40C0F146446C9BE3CD4614645FD /* Foundation.framework */; };
 		C37731A4477A98180796F7A84E469468 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B66EED91646A6EBC29FFF27B51CEEB /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C68099F0D08227A63E491BC4E8AB45BC /* YJFontAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAE4FB2AD5FF2A089B54326BDF09963 /* YJFontAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7EEC3D2442DB5562E98ECCF00FCDA64 /* NSString+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF304AB932A9F7DC2272CF4B3A04FAC /* NSString+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9D80B581EF18A5D5BFC8F2CFBBACEBF /* NSMutableAttributedString+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A67B59803067BEF5593478247ACB2B /* NSMutableAttributedString+YJ.m */; };
 		CD704244E7D59CA2B83795A314A3B783 /* NSNumber+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 9233F7191582CAC407DDF7D6F6C7476E /* NSNumber+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE184D54E06D1129482B7F2601433B4D /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 443CC4604D3AE7DADA6FFA4696649AFE /* Masonry-dummy.m */; };
 		CF37DC1662A51A6006C230B2113581B6 /* TFHpple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A0193BABCD71CE546766C436C836F0 /* TFHpple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFAA56193403FDCE03827973BBF20F3B /* yj_fontsetting_line@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 76A11E720B8E9638596CD94B7342ED69 /* yj_fontsetting_line@3x.png */; };
 		D40E7DBC16C624A6F0C147D90C9DAF2B /* NSArray+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF7E1331A699486705E001BB072E9FA /* NSArray+YJ.m */; };
 		D419F9E85AFBB921925A61A8D1F4A3F5 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 504244C58D22D74057D4E34C594C25BB /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D45BA3FD5D71702FFCB6E04943EA1723 /* YJFontAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB81B140DD00342084B5E2E75CAAC59E /* YJFontAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D78F86555943ED84BC50DDC3650D8329 /* UIImage+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5330D84C8E68E44030A50883089A10 /* UIImage+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D87D162ED3C39F32AB5D10864CCF796C /* yj_fontsetting_line.png in Sources */ = {isa = PBXBuildFile; fileRef = BDFF1B5B0F5862D671BE481E5B606B78 /* yj_fontsetting_line.png */; };
-		D93875BDB75F6099DA7CB7CD63D725A6 /* yj_fontsetting_slider@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD1095B2FA017B317E0420E5E9195 /* yj_fontsetting_slider@3x.png */; };
+		D90D023C4B21C409FBA57246AB4E545D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C4B40C0F146446C9BE3CD4614645FD /* Foundation.framework */; };
 		DA39253F9D10084909E3F753FC075F52 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C90B9F43088E174E6B8A028A873E94D /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB0621BA4A02F2FB8ABBAEF0049B6971 /* YJFontAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A28C7B831F789C61CBE7F8718E514AB /* YJFontAlertView.bundle */; };
 		DDADCB485635554645F54296B499E7C1 /* UIViewController+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABD0F4D4C5D993BE53D1CE953855DAE /* UIViewController+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDD3C836AC00EAC1BA272EC47EF4C58D /* UIView+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 726612E9D58F8ECCF3057CFE7E0BDA95 /* UIView+YJ.m */; };
 		E0EF7F979BBF2828D9B75B387FA7B969 /* TFHpple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8947E0DBA7C22958573F2B7C33B123E2 /* TFHpple.framework */; };
@@ -116,9 +102,17 @@
 		F8B5E217A0D997EFC78E27FA8C82BAB0 /* NSMutableAttributedString+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 447F1A5057F6643BB2A0BA0E8DDBD35D /* NSMutableAttributedString+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB886545A5C39B1307EA79C8A0A2A698 /* NSArray+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = A9EEEEB2DBC1822591E15AFF9C594629 /* NSArray+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE4DB30EEA9AC0AC00EB2E618BD90C11 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D482D161CCA9201271574FBF8F879F6 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FE9CAF56B68501AA548130E96F994FE3 /* YJFontAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EEB6D513DFB529A21BC8E677155439 /* YJFontAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		21814D23DD238D51FFEA350F74EA0402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38AEB5C6E0729E9103F7A01A85A3864;
+			remoteInfo = YJExtensions;
+		};
 		57328FE02CB8FACBC0D2C1ABEFE7D3E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -147,13 +141,6 @@
 			remoteGlobalIDString = 031C76CCD2E5154CAB03A81AAF4C3D6B;
 			remoteInfo = "Pods-YJFontAlertView_Example";
 		};
-		9D948D40F827CB7EDFCD10A65A414656 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
 		9E52BC084BD5D7733C03AA0C6F6B0C1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -168,12 +155,12 @@
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		E2035E056564DA1D8F9CE3FC2B6294AD /* PBXContainerItemProxy */ = {
+		F3106421AE206BF3C6529775D96E1B17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D38AEB5C6E0729E9103F7A01A85A3864;
-			remoteInfo = YJExtensions;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -182,6 +169,7 @@
 		05449CFE9EEA7EB0D6626539810AB206 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		076C028F4D9AE4548DF2F92163C5F6F9 /* UIDevice+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+YJ.m"; path = "YJExtensions/UIKit/UIDevice+YJ.m"; sourceTree = "<group>"; };
 		09913173E688FB8EDC5A1BB19D290D94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		0A28C7B831F789C61CBE7F8718E514AB /* YJFontAlertView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YJFontAlertView.bundle; path = YJFontAlertView/Classes/YJFontAlertView.bundle; sourceTree = "<group>"; };
 		0BD23458E489084E0DA912C0F6F29BB4 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		13344FC6ADFD16454B5BF28E9F2402CD /* NSDictionary+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+YJ.h"; path = "YJExtensions/Foundation/NSDictionary+YJ.h"; sourceTree = "<group>"; };
 		13EAAD46DD29F4477B9953E46DB5B7F9 /* NSDate+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YJ.m"; path = "YJExtensions/Foundation/NSDate+YJ.m"; sourceTree = "<group>"; };
@@ -196,12 +184,9 @@
 		24A66E9953B95205CD37DFD8AAAB154C /* Pods-YJFontAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJFontAlertView_Example-dummy.m"; sourceTree = "<group>"; };
 		27B9BF599B953118DA86C6A752269E62 /* Pods-YJFontAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJFontAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		292D49118623CBC1D420561CD4F6DB47 /* Pods-YJFontAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJFontAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2B70642807889A7783603346FCB98462 /* YJFontAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJFontAlertView-prefix.pch"; sourceTree = "<group>"; };
 		2BE199ACFB4BD37D63E406FA6ADAB437 /* UINavigationBar+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+YJ.m"; path = "YJExtensions/UIKit/UINavigationBar+YJ.m"; sourceTree = "<group>"; };
-		30E0DD187B864593E7878B6DBDE26AE8 /* yj_fontsetting_slider.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = yj_fontsetting_slider.png; sourceTree = "<group>"; };
+		2BE28CA78A2E8E65A036A7E06506BBD2 /* YJFontAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJFontAlertView-prefix.pch"; sourceTree = "<group>"; };
 		346CA2753C522132444FD3021837F50F /* TFHpple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TFHpple.framework; path = TFHpple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34CFCE5B9289FE37114AA7179ECCCC7E /* YJFontAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YJFontAlertView-Info.plist"; sourceTree = "<group>"; };
-		3A98FA21EC640FDFEBE9A8EE282E65DE /* yj_fontsetting_decrease@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yj_fontsetting_decrease@2x.png"; sourceTree = "<group>"; };
 		3B34698A726904F013FE7520E34857E6 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		3D5C23FC73A869D5B3280C5178E87159 /* NSBundle+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+YJ.h"; path = "YJExtensions/Foundation/NSBundle+YJ.h"; sourceTree = "<group>"; };
 		3D6483D898058DC05AE1B0F550BDED81 /* XPathQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = Classess/XPathQuery.m; sourceTree = "<group>"; };
@@ -211,19 +196,17 @@
 		443CC4604D3AE7DADA6FFA4696649AFE /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		447F1A5057F6643BB2A0BA0E8DDBD35D /* NSMutableAttributedString+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+YJ.h"; path = "YJExtensions/Foundation/NSMutableAttributedString+YJ.h"; sourceTree = "<group>"; };
 		44C7CF15DCAD8F6CEE1681C1637673D4 /* Pods-YJFontAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJFontAlertView_Tests.modulemap"; sourceTree = "<group>"; };
+		46EEB6D513DFB529A21BC8E677155439 /* YJFontAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJFontAlertView.m; path = YJFontAlertView/Classes/YJFontAlertView.m; sourceTree = "<group>"; };
 		472DF4C0847AC2AC72BFD07A836B21FF /* UIColor+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YJ.h"; path = "YJExtensions/UIKit/UIColor+YJ.h"; sourceTree = "<group>"; };
 		47C1E883D598A3B58CD967FF02711155 /* YJExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJExtensions-dummy.m"; sourceTree = "<group>"; };
 		48496CD95C79CFFA21F633FA68DB0744 /* UIButton+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+YJ.h"; path = "YJExtensions/UIKit/UIButton+YJ.h"; sourceTree = "<group>"; };
 		48B4A8036A217B2FE0DD59193B8A29DC /* YJExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJExtensions.xcconfig; sourceTree = "<group>"; };
-		48BEB1D82432AC1FFEF741E4ACACFFAF /* YJFontAlertView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YJFontAlertView.bundle; path = YJFontAlertView/Classes/YJFontAlertView.bundle; sourceTree = "<group>"; };
 		48CB119514C0CCB4572C8F52A040953D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		4AD4790C8D22F0EE8777751DF8B19477 /* yj_fontsetting_increase@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yj_fontsetting_increase@2x.png"; sourceTree = "<group>"; };
 		4BEC24134FFD1B6B4CD1F344C8789279 /* UIWindow+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+YJ.m"; path = "YJExtensions/UIKit/UIWindow+YJ.m"; sourceTree = "<group>"; };
+		4CB6544DA21EC033189A79960A9F3ADD /* YJFontAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJFontAlertView.xcconfig; sourceTree = "<group>"; };
 		4E0ECC018D947356A9C99368177BC79C /* TFHppleElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = Classess/TFHppleElement.h; sourceTree = "<group>"; };
 		4F97119E8A7A9EC031110C0386785EBA /* UIColor+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YJ.m"; path = "YJExtensions/UIKit/UIColor+YJ.m"; sourceTree = "<group>"; };
 		504244C58D22D74057D4E34C594C25BB /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		5204403C542C6E3FF99A4097DD0677D8 /* YJFontAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJFontAlertView.m; path = YJFontAlertView/Classes/YJFontAlertView.m; sourceTree = "<group>"; };
-		53CDD1095B2FA017B317E0420E5E9195 /* yj_fontsetting_slider@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yj_fontsetting_slider@3x.png"; sourceTree = "<group>"; };
 		542D24138874A7E460F6897FADE8FCFF /* YJExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YJExtensions.framework; path = YJExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C1BC5FCC5EC0E19B6E0FEE770669CB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		585DFF1EB6882322C17E0100540F03F7 /* Pods-YJFontAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJFontAlertView_Example.modulemap"; sourceTree = "<group>"; };
@@ -242,68 +225,61 @@
 		726612E9D58F8ECCF3057CFE7E0BDA95 /* UIView+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YJ.m"; path = "YJExtensions/UIKit/UIView+YJ.m"; sourceTree = "<group>"; };
 		73032BE948660C3A689B6ADBAD905BF8 /* YJFontAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YJFontAlertView.framework; path = YJFontAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7653ED889C647AD0D4562FCBA7B66159 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		76A11E720B8E9638596CD94B7342ED69 /* yj_fontsetting_line@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yj_fontsetting_line@3x.png"; sourceTree = "<group>"; };
 		7ACE68C66B4C07A3799F253766997D6F /* TFHppleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = Classess/TFHppleElement.m; sourceTree = "<group>"; };
+		7EAE4FB2AD5FF2A089B54326BDF09963 /* YJFontAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJFontAlertView-umbrella.h"; sourceTree = "<group>"; };
 		7FF304AB932A9F7DC2272CF4B3A04FAC /* NSString+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YJ.h"; path = "YJExtensions/Foundation/NSString+YJ.h"; sourceTree = "<group>"; };
-		7FFBED892CC9E96532489C2AD1D0FA0D /* YJFontAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YJFontAlertView.modulemap; sourceTree = "<group>"; };
 		8114988DC7A91DBA14B6071104A997BD /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		82F7591161B4FE309B1ACC48C10AF398 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		841B2810040AC08724F8E108ED0C2808 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8584DB3EEDF9C18C94E0DF0BD141A04C /* UIWindow+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+YJ.h"; path = "YJExtensions/UIKit/UIWindow+YJ.h"; sourceTree = "<group>"; };
 		8679DD53EA65084EC676CEADCE6B6736 /* Pods-YJFontAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJFontAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		87FCD83875A73CC113EA8EE35DFB6EFA /* YJFontAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YJFontAlertView-Info.plist"; sourceTree = "<group>"; };
 		88FCAA4CFE222307F69B65537D5CC8F5 /* NSFileManager+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+YJ.m"; path = "YJExtensions/Foundation/NSFileManager+YJ.m"; sourceTree = "<group>"; };
 		8947E0DBA7C22958573F2B7C33B123E2 /* TFHpple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TFHpple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89837B1B943A1106E80AB9335BECBCD8 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		8A30015BC1CBD1958E94BDA3043FE0B1 /* yj_fontsetting_line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yj_fontsetting_line@2x.png"; sourceTree = "<group>"; };
 		8ABD0F4D4C5D993BE53D1CE953855DAE /* UIViewController+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YJ.h"; path = "YJExtensions/UIKit/UIViewController+YJ.h"; sourceTree = "<group>"; };
 		8BA45B03A841A52069656125E2CDE613 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		8F137E991FFAA21DAE9B2B5A368D3496 /* NSUserDefaults+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+YJ.m"; path = "YJExtensions/Foundation/NSUserDefaults+YJ.m"; sourceTree = "<group>"; };
 		9233F7191582CAC407DDF7D6F6C7476E /* NSNumber+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+YJ.h"; path = "YJExtensions/Foundation/NSNumber+YJ.h"; sourceTree = "<group>"; };
 		942EFEEAFB5123398CFD098D6527CB67 /* UIImage+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YJ.m"; path = "YJExtensions/UIKit/UIImage+YJ.m"; sourceTree = "<group>"; };
-		98F05DD9F7B3D7513DBFD7736501FA31 /* YJFontAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJFontAlertView.xcconfig; sourceTree = "<group>"; };
 		9AF3403B305D40D38877C6D90156E210 /* Pods-YJFontAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJFontAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9C35674EFF41B274A6C0C1D2250B6C73 /* NSDate+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YJ.h"; path = "YJExtensions/Foundation/NSDate+YJ.h"; sourceTree = "<group>"; };
 		9C90B9F43088E174E6B8A028A873E94D /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		9CBB3E5C714CA9265DA858373E30463D /* yj_fontsetting_decrease@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yj_fontsetting_decrease@3x.png"; sourceTree = "<group>"; };
 		9D497E3B4F4FD33597EF10F5E178DC4C /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E51F436172B55C8CBE879CC6F8E920A /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		A136113D1D8CC9FA86E6CFB9A8562C1E /* UINavigationBar+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+YJ.h"; path = "YJExtensions/UIKit/UINavigationBar+YJ.h"; sourceTree = "<group>"; };
 		A2125CB647CE1D275D60532875E7C4E3 /* NSBundle+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+YJ.m"; path = "YJExtensions/Foundation/NSBundle+YJ.m"; sourceTree = "<group>"; };
 		A3C4B40C0F146446C9BE3CD4614645FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A40C69283915437F5AC09A75C4DCD22E /* YJFontAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YJFontAlertView.modulemap; sourceTree = "<group>"; };
 		A7A1060ECC52F9BEF3188AA018ED73AD /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		A9EEEEB2DBC1822591E15AFF9C594629 /* NSArray+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+YJ.h"; path = "YJExtensions/Foundation/NSArray+YJ.h"; sourceTree = "<group>"; };
 		AA68191AC4F2064F00D9CF6DF352027C /* TFHpple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFHpple-dummy.m"; sourceTree = "<group>"; };
 		AAF7E1331A699486705E001BB072E9FA /* NSArray+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+YJ.m"; path = "YJExtensions/Foundation/NSArray+YJ.m"; sourceTree = "<group>"; };
 		AED36C31503B21650592CC0569B11410 /* UIImageView+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+YJ.h"; path = "YJExtensions/UIKit/UIImageView+YJ.h"; sourceTree = "<group>"; };
-		B01950E16ACE1796E9F293C71006D6AF /* YJFontAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJFontAlertView.h; path = YJFontAlertView/Classes/YJFontAlertView.h; sourceTree = "<group>"; };
+		B032F2FAD9656B848271B395D76B923B /* YJFontAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJFontAlertView-dummy.m"; sourceTree = "<group>"; };
 		B2A0193BABCD71CE546766C436C836F0 /* TFHpple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFHpple-umbrella.h"; sourceTree = "<group>"; };
 		B3335E90EE9A8F1335DBBFA2B7F3797D /* Pods-YJFontAlertView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJFontAlertView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7805D486B7CFFA3D8C72D23948FEBFE /* NSDictionary+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YJ.m"; path = "YJExtensions/Foundation/NSDictionary+YJ.m"; sourceTree = "<group>"; };
+		BB81B140DD00342084B5E2E75CAAC59E /* YJFontAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJFontAlertView.h; path = YJFontAlertView/Classes/YJFontAlertView.h; sourceTree = "<group>"; };
 		BC6A1DB85FC71820A4D7EDF9A5943BA5 /* YJExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJExtensions.h; path = YJExtensions/YJExtensions.h; sourceTree = "<group>"; };
 		BD7FA7FB5B0ECFDBF0E526A93EB8E4B5 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		BDC342FB7051A224589C5C41F9FE4ED1 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		BDFF1B5B0F5862D671BE481E5B606B78 /* yj_fontsetting_line.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = yj_fontsetting_line.png; sourceTree = "<group>"; };
-		BEAE37B5AEAA8018C11C6094C58FA70C /* yj_fontsetting@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yj_fontsetting@3x.png"; sourceTree = "<group>"; };
 		C1A59DDE0F40E510243D169349173AB7 /* NSNumber+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+YJ.m"; path = "YJExtensions/Foundation/NSNumber+YJ.m"; sourceTree = "<group>"; };
 		C1A67B59803067BEF5593478247ACB2B /* NSMutableAttributedString+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+YJ.m"; path = "YJExtensions/Foundation/NSMutableAttributedString+YJ.m"; sourceTree = "<group>"; };
 		C1D176FA94C9B82E1E3ED37BEFA9FC85 /* UIButton+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+YJ.m"; path = "YJExtensions/UIKit/UIButton+YJ.m"; sourceTree = "<group>"; };
 		C3209D837CB3C64734BA87F13C301854 /* Pods_YJFontAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJFontAlertView_Example.framework; path = "Pods-YJFontAlertView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53D978426C76FFF22EEC42C72BC4177 /* YJFontAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YJFontAlertView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C613342B326A5AA529A46845EFBA3320 /* Pods-YJFontAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJFontAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
 		C826597BCC1FAB61C9FCEDEA876D364A /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		C8E31FF4D52E950AB2F8235EA4FBF397 /* yj_fontsetting_slider@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yj_fontsetting_slider@2x.png"; sourceTree = "<group>"; };
 		CE0725679D552AC89944D436FE080CF1 /* Pods-YJFontAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJFontAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CF966BED5249EF245862BC08522E42B6 /* Pods-YJFontAlertView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJFontAlertView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D06B1516EC66B925CB53C81C83126F5D /* yj_fontsetting@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yj_fontsetting@2x.png"; sourceTree = "<group>"; };
 		D2B66EED91646A6EBC29FFF27B51CEEB /* XPathQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = Classess/XPathQuery.h; sourceTree = "<group>"; };
 		D43CDF338953E0FB2AAB9C592BED6EFE /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		D4FE3133E965FED714E349A053C5B2BF /* yj_fontsetting.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = yj_fontsetting.png; sourceTree = "<group>"; };
 		D750B98D41E97B29A6A3B57DDC85F259 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		D794036B537918B67705BE634B29368A /* NSUserDefaults+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+YJ.h"; path = "YJExtensions/Foundation/NSUserDefaults+YJ.h"; sourceTree = "<group>"; };
 		D8B2E113058FE1533D473A2368092667 /* NSObject+YJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YJ.m"; path = "YJExtensions/Foundation/NSObject+YJ.m"; sourceTree = "<group>"; };
 		DADC10662168752B87D08B68D6D8CD76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DC3AB53C9ED7D082CB9AEF6B98F12847 /* YJFontAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJFontAlertView-dummy.m"; sourceTree = "<group>"; };
 		DF0036141C1885870078A4992298C77D /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		DFF568FA959654C32530D7EA9D99885E /* YJFontAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJFontAlertView-umbrella.h"; sourceTree = "<group>"; };
 		E23D94F9927A28354BC59E3834694DE6 /* UIDevice+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+YJ.h"; path = "YJExtensions/UIKit/UIDevice+YJ.h"; sourceTree = "<group>"; };
 		E28D5BB653371F3254F68BDCDCE22D00 /* Pods-YJFontAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJFontAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3535914BC585068DD9045EB708B51D8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
@@ -312,15 +288,13 @@
 		E74CEDFC2EEDC06BAD8F19B49AA93764 /* TFHpple-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFHpple-prefix.pch"; sourceTree = "<group>"; };
 		E936EA897125740BEA6375588AA0FAB8 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		EB6DB938486BD0A28CB056AD99D034FA /* TFHpple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = Classess/TFHpple.m; sourceTree = "<group>"; };
-		EE3367213241A86D8665408648531257 /* yj_fontsetting_increase@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "yj_fontsetting_increase@3x.png"; sourceTree = "<group>"; };
+		EF5A203D0A2C1FDCF25F22B11EF3F219 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EFFCCABF083924D4D3E2C77BF9217538 /* Pods-YJFontAlertView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJFontAlertView_Example-Info.plist"; sourceTree = "<group>"; };
-		F29E7D6CA17E5460C4D9B35D8F7AF349 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F40E242E0FE644653D1F285558969F8C /* Pods-YJFontAlertView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJFontAlertView_Tests-Info.plist"; sourceTree = "<group>"; };
 		F6F77422B4D17383163E1D80B19E1ACF /* YJExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJExtensions-umbrella.h"; sourceTree = "<group>"; };
 		F94BDCBD578889B872E8B1AE6D85F1E3 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		FA9D30C4ACF536314EE7BC0D9A1AB927 /* TFHpple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFHpple.xcconfig; sourceTree = "<group>"; };
 		FD361412B0356C7E765553CF73F96342 /* NSObject+YJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YJ.h"; path = "YJExtensions/Foundation/NSObject+YJ.h"; sourceTree = "<group>"; };
-		FF1A00D8E7213F84FC6EC8E5EC9A6F40 /* YJFontAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YJFontAlertView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -367,23 +341,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF9C88D71292C96FC546CDF2E8CC15E8 /* Frameworks */ = {
+		FC151E1197E0E18C15F04C29EA205C23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C03267583A9B6D24AB04F7E7246880D /* Foundation.framework in Frameworks */,
-				3F89178F68272866EFAEAB1EE1D85B7B /* Masonry.framework in Frameworks */,
-				2317064F1896C9939201AFD75DE343C3 /* YJExtensions.framework in Frameworks */,
+				D90D023C4B21C409FBA57246AB4E545D /* Foundation.framework in Frameworks */,
+				1B3E7D65F0A13481E5DED75D9A949E4B /* Masonry.framework in Frameworks */,
+				0213566D47CB3A6C2840914844A987FE /* YJExtensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01A8B0D939B5AEFB2542601BF1F28F89 /* Development Pods */ = {
+		033C78FA3C5223BCE5F748A6B96443AA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				25D6E860775D76E7AE3C6D1FD33C5718 /* YJFontAlertView */,
+				754BA80390745D23D42FAE8409237910 /* YJFontAlertView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -440,20 +414,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		25D6E860775D76E7AE3C6D1FD33C5718 /* YJFontAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				B01950E16ACE1796E9F293C71006D6AF /* YJFontAlertView.h */,
-				5204403C542C6E3FF99A4097DD0677D8 /* YJFontAlertView.m */,
-				4D39C03E35C0FF437238B4A9DC617E77 /* Pod */,
-				486043246DC24F31DD2639C0CAD3B6EC /* Resources */,
-				3C1F0BFF0A8E04C6388E38731546F0E5 /* Support Files */,
-				C6946D52EE49B1EE13F3E376D4894744 /* YJFontAlertView.bundle */,
-			);
-			name = YJFontAlertView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		26D64907BA0A1EDDCC9DB4B9B2DD0A36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,6 +422,16 @@
 				DADC10662168752B87D08B68D6D8CD76 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		2FE4FB9DF9E0658C6DBB182B0165D26C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				841B2810040AC08724F8E108ED0C2808 /* LICENSE */,
+				EF5A203D0A2C1FDCF25F22B11EF3F219 /* README.md */,
+				C53D978426C76FFF22EEC42C72BC4177 /* YJFontAlertView.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3852AEBA368D3582426DF006F24902C6 /* Foundation */ = {
@@ -505,20 +475,6 @@
 			path = "../Target Support Files/YJExtensions";
 			sourceTree = "<group>";
 		};
-		3C1F0BFF0A8E04C6388E38731546F0E5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7FFBED892CC9E96532489C2AD1D0FA0D /* YJFontAlertView.modulemap */,
-				98F05DD9F7B3D7513DBFD7736501FA31 /* YJFontAlertView.xcconfig */,
-				DC3AB53C9ED7D082CB9AEF6B98F12847 /* YJFontAlertView-dummy.m */,
-				34CFCE5B9289FE37114AA7179ECCCC7E /* YJFontAlertView-Info.plist */,
-				2B70642807889A7783603346FCB98462 /* YJFontAlertView-prefix.pch */,
-				DFF568FA959654C32530D7EA9D99885E /* YJFontAlertView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YJFontAlertView";
-			sourceTree = "<group>";
-		};
 		419A6D8E3C69211F9E08B68D4492E5D9 /* YJExtensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,24 +485,6 @@
 			);
 			name = YJExtensions;
 			path = YJExtensions;
-			sourceTree = "<group>";
-		};
-		486043246DC24F31DD2639C0CAD3B6EC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				48BEB1D82432AC1FFEF741E4ACACFFAF /* YJFontAlertView.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		4D39C03E35C0FF437238B4A9DC617E77 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				82F7591161B4FE309B1ACC48C10AF398 /* LICENSE */,
-				F29E7D6CA17E5460C4D9B35D8F7AF349 /* README.md */,
-				FF1A00D8E7213F84FC6EC8E5EC9A6F40 /* YJFontAlertView.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		5A152A4FD1C035C83F1420D31EBA6C40 /* Pods-YJFontAlertView_Example */ = {
@@ -564,6 +502,27 @@
 			);
 			name = "Pods-YJFontAlertView_Example";
 			path = "Target Support Files/Pods-YJFontAlertView_Example";
+			sourceTree = "<group>";
+		};
+		754BA80390745D23D42FAE8409237910 /* YJFontAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BB81B140DD00342084B5E2E75CAAC59E /* YJFontAlertView.h */,
+				46EEB6D513DFB529A21BC8E677155439 /* YJFontAlertView.m */,
+				2FE4FB9DF9E0658C6DBB182B0165D26C /* Pod */,
+				9DDF423C944EBEDB2EFA6308C9C17426 /* Resources */,
+				DB2441E8467661DDB9300E67EFF0C758 /* Support Files */,
+			);
+			name = YJFontAlertView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9DDF423C944EBEDB2EFA6308C9C17426 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A28C7B831F789C61CBE7F8718E514AB /* YJFontAlertView.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A425F7BB434E729E189B6D4D5D635DFA /* Pods-YJFontAlertView_Tests */ = {
@@ -593,32 +552,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6946D52EE49B1EE13F3E376D4894744 /* YJFontAlertView.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				D4FE3133E965FED714E349A053C5B2BF /* yj_fontsetting.png */,
-				D06B1516EC66B925CB53C81C83126F5D /* yj_fontsetting@2x.png */,
-				BEAE37B5AEAA8018C11C6094C58FA70C /* yj_fontsetting@3x.png */,
-				3A98FA21EC640FDFEBE9A8EE282E65DE /* yj_fontsetting_decrease@2x.png */,
-				9CBB3E5C714CA9265DA858373E30463D /* yj_fontsetting_decrease@3x.png */,
-				4AD4790C8D22F0EE8777751DF8B19477 /* yj_fontsetting_increase@2x.png */,
-				EE3367213241A86D8665408648531257 /* yj_fontsetting_increase@3x.png */,
-				BDFF1B5B0F5862D671BE481E5B606B78 /* yj_fontsetting_line.png */,
-				8A30015BC1CBD1958E94BDA3043FE0B1 /* yj_fontsetting_line@2x.png */,
-				76A11E720B8E9638596CD94B7342ED69 /* yj_fontsetting_line@3x.png */,
-				30E0DD187B864593E7878B6DBDE26AE8 /* yj_fontsetting_slider.png */,
-				C8E31FF4D52E950AB2F8235EA4FBF397 /* yj_fontsetting_slider@2x.png */,
-				53CDD1095B2FA017B317E0420E5E9195 /* yj_fontsetting_slider@3x.png */,
-			);
-			name = YJFontAlertView.bundle;
-			path = YJFontAlertView/Classes/YJFontAlertView.bundle;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				01A8B0D939B5AEFB2542601BF1F28F89 /* Development Pods */,
+				033C78FA3C5223BCE5F748A6B96443AA /* Development Pods */,
 				BD4557AD6E2936759BE301D8FF9FDCCF /* Frameworks */,
 				E7BFB843B74F075CB867CDFD5F622E18 /* Pods */,
 				1D90A6A055BC1DB0E75EA2B8CECB6C6F /* Products */,
@@ -638,6 +576,20 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		DB2441E8467661DDB9300E67EFF0C758 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A40C69283915437F5AC09A75C4DCD22E /* YJFontAlertView.modulemap */,
+				4CB6544DA21EC033189A79960A9F3ADD /* YJFontAlertView.xcconfig */,
+				B032F2FAD9656B848271B395D76B923B /* YJFontAlertView-dummy.m */,
+				87FCD83875A73CC113EA8EE35DFB6EFA /* YJFontAlertView-Info.plist */,
+				2BE28CA78A2E8E65A036A7E06506BBD2 /* YJFontAlertView-prefix.pch */,
+				7EAE4FB2AD5FF2A089B54326BDF09963 /* YJFontAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YJFontAlertView";
 			sourceTree = "<group>";
 		};
 		DE10A43CA741F103FF1EC9A5EDAC63AF /* TFHpple */ = {
@@ -739,6 +691,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39C0175D892417CC4EF73739C7787817 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68099F0D08227A63E491BC4E8AB45BC /* YJFontAlertView-umbrella.h in Headers */,
+				D45BA3FD5D71702FFCB6E04943EA1723 /* YJFontAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8923782F62D88AF6F6FC177A5BF9248B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -778,15 +739,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F3CD0F6AD7A7DB42F322D8405FC4CA2 /* Pods-YJFontAlertView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3E539699377614162259BC8BDEB8C3A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0AE73E9A9401909429FEB2871D026628 /* YJFontAlertView-umbrella.h in Headers */,
-				A57384F071FB5B83E8CDAF10402836F7 /* YJFontAlertView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,18 +832,18 @@
 		};
 		73A9AAB0563256C13C27C25FF1429622 /* YJFontAlertView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1052ACBF49400EAEC8D20808376BC939 /* Build configuration list for PBXNativeTarget "YJFontAlertView" */;
+			buildConfigurationList = 857B468F84F7355856E25D19E1B0F5B8 /* Build configuration list for PBXNativeTarget "YJFontAlertView" */;
 			buildPhases = (
-				E3E539699377614162259BC8BDEB8C3A /* Headers */,
-				CC4FC9320AA230B399E0A15C6D9994E8 /* Sources */,
-				DF9C88D71292C96FC546CDF2E8CC15E8 /* Frameworks */,
-				D1792C0A19DCFBCA8366FEBE81462E2C /* Resources */,
+				39C0175D892417CC4EF73739C7787817 /* Headers */,
+				5E626FA00D4E3DBEFAC66ACD97B24A44 /* Sources */,
+				FC151E1197E0E18C15F04C29EA205C23 /* Frameworks */,
+				75C60006201AA477560C2F8A0BD5758A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E615C776F55DD5DD10609321E2C008E0 /* PBXTargetDependency */,
-				273867558D60C527357C7A1FF5AC27F3 /* PBXTargetDependency */,
+				7379239D132E8901439B2979CF12E3AA /* PBXTargetDependency */,
+				11480F5BF61E45AA1C0BB279A1D44D84 /* PBXTargetDependency */,
 			);
 			name = YJFontAlertView;
 			productName = YJFontAlertView;
@@ -963,6 +915,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75C60006201AA477560C2F8A0BD5758A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0621BA4A02F2FB8ABBAEF0049B6971 /* YJFontAlertView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94F1D38151CB787DCDF119BD0454392E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -981,14 +941,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1792C0A19DCFBCA8366FEBE81462E2C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1673F04AE8DA09B51569EB42836FA9E8 /* YJFontAlertView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1021,6 +973,15 @@
 				2E38B21B7270BFF5EB1753F457FDEB30 /* TFHpple.m in Sources */,
 				06C8ADB5FDCD2C9C73AF46912A5668BC /* TFHppleElement.m in Sources */,
 				6E1AB9D6EA840B86A6A2A9792EEFB528 /* XPathQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E626FA00D4E3DBEFAC66ACD97B24A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6454786F82728CFA0A0DE131DC37CD77 /* YJFontAlertView-dummy.m in Sources */,
+				FE9CAF56B68501AA548130E96F994FE3 /* YJFontAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1059,28 +1020,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC4FC9320AA230B399E0A15C6D9994E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BC27E3085C066091B33D1756D609BB4 /* yj_fontsetting.png in Sources */,
-				391E4BDBEA04274915ADBB5C5F866B80 /* yj_fontsetting@2x.png in Sources */,
-				6BD8B11D4F403F8D39ED3E5DE9391C1D /* yj_fontsetting@3x.png in Sources */,
-				AFF608DD43C1784A1A6B63FC33732A7F /* yj_fontsetting_decrease@2x.png in Sources */,
-				352326BA407FF741FD3BF0006D1ABE75 /* yj_fontsetting_decrease@3x.png in Sources */,
-				B771531E23D272A41A55AE08C492178A /* yj_fontsetting_increase@2x.png in Sources */,
-				B4F7AF1232B814F3FC6991AF67FE949E /* yj_fontsetting_increase@3x.png in Sources */,
-				D87D162ED3C39F32AB5D10864CCF796C /* yj_fontsetting_line.png in Sources */,
-				1100C8BF382F45A3DAA5E8486669A085 /* yj_fontsetting_line@2x.png in Sources */,
-				CFAA56193403FDCE03827973BBF20F3B /* yj_fontsetting_line@3x.png in Sources */,
-				2525DA9AC60355BD04AAD7889F39CF84 /* yj_fontsetting_slider.png in Sources */,
-				666701D2D2A9DF218D60A9C5C55E50E7 /* yj_fontsetting_slider@2x.png in Sources */,
-				D93875BDB75F6099DA7CB7CD63D725A6 /* yj_fontsetting_slider@3x.png in Sources */,
-				13698CF13CB5361AF8E6861C5EAA3091 /* YJFontAlertView-dummy.m in Sources */,
-				15CFCF80C07149E3E2B2BF8BE05E40A8 /* YJFontAlertView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D334029AF2AD06DE96A5BA7701189A45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1098,6 +1037,12 @@
 			target = D38AEB5C6E0729E9103F7A01A85A3864 /* YJExtensions */;
 			targetProxy = 77C97EB74458033E92C23328BB14107C /* PBXContainerItemProxy */;
 		};
+		11480F5BF61E45AA1C0BB279A1D44D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YJExtensions;
+			target = D38AEB5C6E0729E9103F7A01A85A3864 /* YJExtensions */;
+			targetProxy = 21814D23DD238D51FFEA350F74EA0402 /* PBXContainerItemProxy */;
+		};
 		1F2445578323950E3BC7846F7FBC74CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YJFontAlertView_Example";
@@ -1110,17 +1055,17 @@
 			target = 73A9AAB0563256C13C27C25FF1429622 /* YJFontAlertView */;
 			targetProxy = 9E52BC084BD5D7733C03AA0C6F6B0C1C /* PBXContainerItemProxy */;
 		};
-		273867558D60C527357C7A1FF5AC27F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YJExtensions;
-			target = D38AEB5C6E0729E9103F7A01A85A3864 /* YJExtensions */;
-			targetProxy = E2035E056564DA1D8F9CE3FC2B6294AD /* PBXContainerItemProxy */;
-		};
 		32F4C3EA3E7DAE8A076FF30A0975CA9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TFHpple;
 			target = 028CA453FB5BB8D74FCBF47BB4DAF886 /* TFHpple */;
 			targetProxy = 7471D75B263BFB821F70C579C5552D33 /* PBXContainerItemProxy */;
+		};
+		7379239D132E8901439B2979CF12E3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = F3106421AE206BF3C6529775D96E1B17 /* PBXContainerItemProxy */;
 		};
 		8DFA4A4FFC1052FEF549D19D4F673D4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1133,12 +1078,6 @@
 			name = TFHpple;
 			target = 028CA453FB5BB8D74FCBF47BB4DAF886 /* TFHpple */;
 			targetProxy = 57328FE02CB8FACBC0D2C1ABEFE7D3E0 /* PBXContainerItemProxy */;
-		};
-		E615C776F55DD5DD10609321E2C008E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 9D948D40F827CB7EDFCD10A65A414656 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1224,37 +1163,6 @@
 				MODULEMAP_FILE = "Target Support Files/YJExtensions/YJExtensions.modulemap";
 				PRODUCT_MODULE_NAME = YJExtensions;
 				PRODUCT_NAME = YJExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		278511AB77695123C837E95B2EA9630D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98F05DD9F7B3D7513DBFD7736501FA31 /* YJFontAlertView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YJFontAlertView/YJFontAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YJFontAlertView/YJFontAlertView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YJFontAlertView/YJFontAlertView.modulemap";
-				PRODUCT_MODULE_NAME = YJFontAlertView;
-				PRODUCT_NAME = YJFontAlertView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1522,9 +1430,9 @@
 			};
 			name = Debug;
 		};
-		8645830C3A618724A6C259B6612E4F89 /* Release */ = {
+		847AF3F0858E04A2693D19A4C52874E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98F05DD9F7B3D7513DBFD7736501FA31 /* YJFontAlertView.xcconfig */;
+			baseConfigurationReference = 4CB6544DA21EC033189A79960A9F3ADD /* YJFontAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1581,6 +1489,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4F313BE773D9C7E1DB6CC9056782B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB6544DA21EC033189A79960A9F3ADD /* YJFontAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YJFontAlertView/YJFontAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YJFontAlertView/YJFontAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YJFontAlertView/YJFontAlertView.modulemap";
+				PRODUCT_MODULE_NAME = YJFontAlertView;
+				PRODUCT_NAME = YJFontAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1656,15 +1595,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1052ACBF49400EAEC8D20808376BC939 /* Build configuration list for PBXNativeTarget "YJFontAlertView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				278511AB77695123C837E95B2EA9630D /* Debug */,
-				8645830C3A618724A6C259B6612E4F89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1688,6 +1618,15 @@
 			buildConfigurations = (
 				78506CF424DA710EE77068BDE0271DC0 /* Debug */,
 				48FEA1C76CAC4DED3694055DEFC9DABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857B468F84F7355856E25D19E1B0F5B8 /* Build configuration list for PBXNativeTarget "YJFontAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F313BE773D9C7E1DB6CC9056782B2C /* Debug */,
+				847AF3F0858E04A2693D19A4C52874E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

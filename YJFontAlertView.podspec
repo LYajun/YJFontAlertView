@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJFontAlertView'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '字体设置'
 
   s.description      = <<-DESC

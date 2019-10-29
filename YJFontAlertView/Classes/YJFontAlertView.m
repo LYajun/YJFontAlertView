@@ -42,7 +42,7 @@ NSBundle *YJFontAlertViewBundle(void){
         [self addSubview:self.closeBtn];
         [self.closeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerX.left.bottom.equalTo(self);
-            make.height.mas_equalTo(44);
+            make.height.mas_equalTo(49);
         }];
         
         UIView *botSpaceView = [UIView new];
@@ -79,12 +79,13 @@ NSBundle *YJFontAlertViewBundle(void){
         [self.settingLeftImg mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerY.equalTo(self.settingBgImg);
             make.right.equalTo(self.settingBgImg.mas_left).offset(-15);
-            make.size.mas_equalTo(CGSizeMake(20, 20));
+            make.size.mas_equalTo(CGSizeMake(14, 14));
         }];
         
         [self addSubview:self.settingRightImg];
         [self.settingRightImg mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.centerY.width.height.equalTo(self.settingLeftImg);
+            make.centerY.equalTo(self.settingBgImg);
+            make.size.mas_equalTo(CGSizeMake(20, 20));
             make.left.equalTo(self.settingBgImg.mas_right).offset(15);
         }];
         

@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lyj;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Z35S33J39R;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -500,6 +503,7 @@
 			baseConfigurationReference = 3E30F34663148EC3D9FE97E3 /* Pods-YJFontAlertView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z35S33J39R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJFontAlertView/YJFontAlertView-Prefix.pch";
 				INFOPLIST_FILE = "YJFontAlertView/YJFontAlertView-Info.plist";
@@ -516,6 +520,7 @@
 			baseConfigurationReference = 08661801D9BC15F9A7EA7B39 /* Pods-YJFontAlertView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z35S33J39R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJFontAlertView/YJFontAlertView-Prefix.pch";
 				INFOPLIST_FILE = "YJFontAlertView/YJFontAlertView-Info.plist";

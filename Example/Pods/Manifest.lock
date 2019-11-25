@@ -8,7 +8,7 @@ PODS:
     - TFHpple
   - YJExtensions/UIKit (1.1.1):
     - YJExtensions/Foundation
-  - YJFontAlertView (1.0.4):
+  - YJFontAlertView (1.0.5):
     - Masonry
     - YJExtensions
 
@@ -29,7 +29,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
   YJExtensions: 74feac415ccd5a0d74559d37fd1a30c46cf3157e
-  YJFontAlertView: 0503b8a8bf9015c98578f1969d679cea973c1322
+  YJFontAlertView: 72f2e5b12b1f543f539501a4c54f8d0c7d24a4db
 
 PODFILE CHECKSUM: ddbf57f1bcbea9774331779ad76ac81f81fa1a72
 

@@ -10,15 +10,41 @@
 #import <YJExtensions/YJExtensions.h>
 
 
-#define YJFontScreenWidth [UIScreen mainScreen].bounds.size.width
-#define YJFontImgLeftSpace 68
-#define YJFontSliderLeftSpace 56
-#define YJFontTitleWidth 40
-#define YJFontTitleLeftSpace -18
-
-
 NSBundle *YJFontAlertViewBundle(void){
     return [NSBundle yj_bundleWithCustomClass:NSClassFromString(@"YJFontAlertView") bundleName:@"YJFontAlertView"];
+}
+
+static inline BOOL YJFontAlertView_IS_IPAD(void) {
+    return (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad);
+}
+
+static inline CGFloat YJFontScreenWidth(void) {
+    return [UIScreen mainScreen].bounds.size.width;
+}
+
+static inline CGFloat YJFontImgLeftSpace(void) {
+    if (YJFontAlertView_IS_IPAD()) {
+        return (YJFontScreenWidth() - 400)/2;
+    }
+    return 68;
+}
+
+static inline CGFloat YJFontSliderLeftSpace(void) {
+    if (YJFontAlertView_IS_IPAD()) {
+        return (YJFontScreenWidth() - 400)/2 - 12;
+    }
+    return 56;
+}
+
+static inline CGFloat YJFontTitleWidth(void) {
+    return 40;
+}
+
+static inline CGFloat YJFontTitleLeftSpace(void) {
+    if (YJFontAlertView_IS_IPAD()) {
+        return -19;
+    }
+    return -18.5;
 }
 
 
@@ -63,7 +89,7 @@ NSBundle *YJFontAlertViewBundle(void){
         [self addSubview:self.settingBgImg];
         [self.settingBgImg mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerX.equalTo(self);
-            make.left.equalTo(self).offset(YJFontImgLeftSpace);
+            make.left.equalTo(self).offset(YJFontImgLeftSpace());
             make.height.equalTo(self.settingBgImg.mas_width).multipliedBy(0.038);
             make.bottom.equalTo(botSpaceView.mas_top).offset(-35);
         }];
@@ -71,7 +97,7 @@ NSBundle *YJFontAlertViewBundle(void){
         [self.settingSlider mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerX.equalTo(self);
             make.centerY.equalTo(self.settingBgImg).offset(1);
-            make.left.equalTo(self).offset(YJFontSliderLeftSpace);
+            make.left.equalTo(self).offset(YJFontSliderLeftSpace());
             make.height.mas_equalTo(20);
         }];
         
@@ -91,9 +117,9 @@ NSBundle *YJFontAlertViewBundle(void){
         
         [self addSubview:self.settingLab];
         [self.settingLab mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.bottom.equalTo(self.settingSlider.mas_top).offset(-6);
-            make.width.mas_equalTo(YJFontTitleWidth);
-            make.left.equalTo(self.settingBgImg).offset(YJFontTitleLeftSpace);
+            make.bottom.equalTo(self.settingSlider.mas_top).offset(YJFontAlertView_IS_IPAD() ? -8 : -6);
+            make.width.mas_equalTo(YJFontTitleWidth());
+            make.left.equalTo(self.settingBgImg).offset(YJFontTitleLeftSpace());
         }];
         self.settingLab.text = @"小";
         self.tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(actionTapGesture:)];
@@ -189,7 +215,7 @@ NSBundle *YJFontAlertViewBundle(void){
     }
     self.settingSlider.value = rate;
     [self.settingLab mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.settingBgImg).offset(YJFontTitleLeftSpace + rate * (YJFontScreenWidth - YJFontImgLeftSpace*2));
+        make.left.equalTo(self.settingBgImg).offset(YJFontTitleLeftSpace() + rate * (YJFontScreenWidth() - YJFontImgLeftSpace()*2));
     }];
 }
 
@@ -206,7 +232,7 @@ NSBundle *YJFontAlertViewBundle(void){
         _closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_closeBtn setTitle:@"取消" forState:UIControlStateNormal];
         [_closeBtn setTitleColor:[UIColor yj_colorWithHex:0x252525] forState:UIControlStateNormal];
-        _closeBtn.titleLabel.font = [UIFont systemFontOfSize:17];
+        _closeBtn.titleLabel.font = [UIFont systemFontOfSize:YJFontAlertView_IS_IPAD() ? 18 :17];
         [_closeBtn addTarget:self action:@selector(hide) forControlEvents:UIControlEventTouchUpInside];
         _closeBtn.backgroundColor = [UIColor whiteColor];
     }
@@ -235,7 +261,7 @@ NSBundle *YJFontAlertViewBundle(void){
     if (!_settingLab) {
         _settingLab = [UILabel new];
         _settingLab.textAlignment = NSTextAlignmentCenter;
-         _settingLab.font = [UIFont systemFontOfSize:14];
+        _settingLab.font = [UIFont systemFontOfSize:YJFontAlertView_IS_IPAD() ? 16 : 14];
         _settingLab.textColor = [UIColor yj_colorWithHex:0x989898];
     }
     return _settingLab;
@@ -245,7 +271,7 @@ NSBundle *YJFontAlertViewBundle(void){
         _titleLab = [UILabel new];
         _titleLab.text = @"字体设置";
         _titleLab.textColor = [UIColor yj_colorWithHex:0x252525];
-        _titleLab.font = [UIFont systemFontOfSize:18];
+        _titleLab.font = [UIFont systemFontOfSize:YJFontAlertView_IS_IPAD() ? 20 : 18];
     }
     return _titleLab;
 }
